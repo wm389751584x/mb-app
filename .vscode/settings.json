@@ -1,3 +1,7 @@
 {
-    "python.pythonPath": "/Users/mengwang/.local/share/virtualenvs/mb-uHb7m7lf/bin/python"
+    "python.pythonPath": "/Users/mengwang/.local/share/virtualenvs/mb-uHb7m7lf/bin/python",
+    "editor.fontSize": 14,
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django"
+    ]
 }
