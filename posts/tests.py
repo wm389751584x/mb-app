@@ -20,14 +20,4 @@ class PostModelTest(TestCase):
         self.assertEqual(expected_object_name, 'just a test')
 
 
-class HomePageViewTest(TestCase):
-    """This class does blah blah."""
-
-    def setUp(self):
-        Post.objects.create(test='this is another test')
-
-    def test_view_url_exists_at_proper_location(self):
-        """This method does blah blah."""
-        resp = self.client.get('/')
-        self.assertEqual(resp.status_code, 200)
 
