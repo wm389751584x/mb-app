@@ -31,13 +31,3 @@ class HomePageViewTest(TestCase):
         resp = self.client.get('/')
         self.assertEqual(resp.status_code, 200)
 
-    def test_view_url_by_name(self):
-        """This method does blah blah."""
-        resp = self.client.get(reverse('home'))
-        self.assertEqual(resp.status_code, 200)
-
-    def test_view_uses_correct_template(self):
-        """This method does blah blah."""
-        resp = self.client.get(reverse('home'))
-        self.assertEqual(resp.status_code, 200)
-        self.assertTemplateUsed(resp, 'home.html')
