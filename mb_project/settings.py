@@ -25,7 +25,7 @@ SECRET_KEY = 'emze(m%g8yyio0r5n@gdk2t3l7l$l*j03r0s7q&vt9-(s*hab@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
